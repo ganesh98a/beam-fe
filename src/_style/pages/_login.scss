@@ -1,0 +1,60 @@
+.loginblock{
+  // left side scss of login page
+  .fa{
+    @extend %fontawesome;
+    font-size: rem(15px);
+  }
+  .leftsideform{
+      @include d-flex(flex,center,center,column);
+      @extend %h100;
+      .subheading a{
+        color:$AzureRadiance;
+        font-size: rem(24px);
+      }
+      .login-formsection{
+        @include padding(8rem 0 0 0);
+        .btn-login{
+          @include button-bg($Jaffa, $White);
+        }
+        .forgotpassword-text{
+          color:$AzureRadiance;
+          font-size: rem(16px);
+        }
+      }
+      .heading-login{
+        font-size: rem(20px);
+        color:$Shark;
+        @extend %seguisb;
+      }
+  }
+  // right side scss of login page
+  .rightsidebg{
+    background: transparent url(src/assets/images/bannerright.png) no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: 100% 100%;
+    // background-position: bottom center;
+    background-repeat: no-repeat;
+    .banner-text{
+        @include padding(1.3rem 4rem);
+        h2{
+          @extend %segoeui;
+          color:$Black;
+          font-size:rem(32px);
+          line-height: rem(38px);
+        }
+    }
+  }
+ 
+  // media query
+  @media #{$information-phone} {
+    .leftsideform{
+      width:100%;
+    }
+    .rightsidebg{
+      display: $none;
+    }
+  }
+
+}

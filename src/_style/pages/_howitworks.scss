@@ -1,0 +1,113 @@
+.howitworks-page {
+    .section-1 {
+        background: url(/images/how_banner.png) no-repeat center center;
+        height: 383px;
+        background-size: cover;
+        p {
+            color: $White;
+        }
+    }
+    .section-4 {
+        background: $PeachSchnapps;
+        .fa,
+        h4 {
+            color: $OutrageousOrange;
+        }
+        h4 {
+            margin: 2rem 0 1rem 0;
+        }
+    }
+    .section-8 {
+        background: $BarleyWhite;
+        .card {
+            border-radius: 1rem;
+        }
+    }
+    .red-text {
+        color: $OutrageousOrange;
+    }
+    .social-links {
+        li {
+            list-style: none;
+            display: inline;
+            padding-right: 1.5rem;
+            font-size: 1.5rem;
+        }
+        .fa-facebook {
+            color: $Chambray;
+        }
+        .fa-twitter {
+            color: $DodgerBlue;
+        }
+        a,
+        .fa-intagram,
+        a,
+        .fa-linkedin {
+            color: $Black;
+        }
+    }
+
+    .h-4 {
+        height: 4em;
+    }
+    .height-fix {
+        height: 100%;
+    }
+}
+.pricing {
+    .btn {
+        font-size: 80%;
+        border-radius: 5rem;
+        //letter-spacing: .1rem;
+        transition: all 0.2s;
+    }
+    p {
+        color: $Abbey;
+    }
+    .box-part .text {
+        width: 76%;
+        margin: 0 auto;
+    }
+    .card{
+        height: 100%;
+    }
+}
+.assetimg {
+    width: 208px;
+    margin-left: 40px;
+}
+.liveclassimg {
+    width: 400px !important;
+}
+@media #{$information-large} {
+    .howitworks-page .section-1 {
+        height: auto;
+    }
+}
+@media #{$information-desktop} {
+    .howitworks-page .section-1 {
+        height: auto;
+    }
+}
+@media #{$information-tablet} {
+    .howitworks-page .img-height--fix {
+        height: 21.5rem !important;
+    }
+    .howitworks-page .section-1 {
+        height: auto;
+    }
+    .ordering {
+        order: 1;
+    }
+    .howitworks-page .section-4 {
+        height: auto;
+    }
+    .liveclassimg {
+        width: auto !important;
+    }
+}
+@media #{$information-phone} {
+    .text-left {
+        text-align: center !important;
+    }
+}

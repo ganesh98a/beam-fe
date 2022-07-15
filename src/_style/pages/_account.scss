@@ -1,0 +1,307 @@
+.Account-bg {
+    background: url(/images/banner_accounts.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    //  height:383px;
+    height: 200px;
+}
+.avatar-preview img {
+    width: 96px;
+}
+.abbey-txt {
+    color: $Abbey;
+}
+.cond-btn {
+    border-radius: 8px !important;
+    border: 0;
+    text-align: left;
+    width: 203px;
+    height: 48px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-size: 0.9375rem !important;
+    margin-right: 10px;
+    color: $White;
+    position: relative;
+}
+.account_tabs {
+    .nav-item {
+        width: 45%;
+    }
+    .nav-link {
+        color: $Aluminium;
+        padding-bottom: 3px;
+        border-radius: 0;
+        padding-left: 2px;
+        padding-right: 0;
+    }
+
+    .nav-link.active {
+        border-bottom: 2px solid $OutrageousOrange;
+        background: $White;
+        color: $Shark;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+    .upload-btn {
+        color: $TurquoiseBlue;
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .save-btn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 0.8rem;
+    }
+    .cond-btn {
+        img {
+            position: absolute;
+            padding: 9px 82px;
+            top: 0;
+            left: 1px;
+            background: rgba(0, 0, 0, 0.38);
+            width: auto;
+            height: 48px;
+            background-position: center;
+            border-radius: 8px;
+        }
+    }
+
+    .cond1 {
+        background: $Sycamore;
+    }
+    .cond2 {
+        background: $Paarl;
+    }
+    .cond3 {
+        background: $TurquoiseBlue;
+    }
+    .cond4 {
+        background: $Lavender;
+    }
+    .cond5 {
+        background: $Lochmara;
+    }
+    .cond6 {
+        background: $IceCold;
+    }
+    .cond7 {
+        background: $Kournikova;
+    }
+    .cond8 {
+        background: $BurningOrange;
+    }
+    .member-bor {
+        border-radius: 1rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+.account_tabs .member-bor {
+    width: 36%;
+}
+
+.pricing-popup .pricing > div {
+    float: left;
+    width: 25%;
+    margin-bottom: 20px;
+}
+.pricing-popup {
+    width: 600px !important;
+    max-width: 600px !important;
+}
+.pricing-popup img {
+    width: 130px;
+}
+.pricing-popup .card-price {
+    font-size: 11px !important;
+}
+.pricing-popup .card {
+    margin-right: 13px;
+    height: 100%;
+}
+.pricing-popup .modal-dialog.modal-width--custom {
+    width: 600px;
+    max-width: 600px;
+    float: left;
+}
+.pricing-desktop .slick-slider {
+    width: 100% !important;
+}
+.pricing-desktop img {
+    width: 130px;
+    margin: 0 auto;
+}
+p.occupied_empty {
+    padding-bottom: 14px;
+}
+.pricing-desktop .slick-arrow {
+    display: block !important;
+}
+.pricing-desktop .slick-prev {
+    left: -57px;
+}
+.pricing-desktop .slick-next {
+    right: -57px;
+}
+.pricing-desktop {
+    margin-bottom: 20px;
+}
+.pricing-desktop .card {
+    margin-right: 13px;
+    height: 485px;
+}
+.pricing-popup {
+    width: 800px !important;
+    max-width: 800px !important;
+}
+.grid-four-pricing {
+    width: 800px !important;
+    max-width: 800px !important;
+    display: table;
+    float: none !important;
+    margin: 0 auto !important;
+}
+.pricing-mobile {
+    display: none;
+}
+.pricing-desktop .card {
+    margin-right: 13px;
+    height: auto;
+}
+.formobile {
+    display: none;
+}
+@media #{$information-xtralarge} {
+    .pricing-popup {
+        width: 1000px !important;
+        max-width: 1000px !important;
+    }
+    .grid-four-pricing {
+        width: 1000px !important;
+        max-width: 1000px !important;
+        display: table;
+        float: none !important;
+        margin: 0 auto !important;
+    }
+    .formobile {
+        display: none;
+    }
+    .membership-popup .modal-dialog {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+@media #{$information-large} {
+    .Account-bg {
+        height: auto !important;
+    }
+    .account_tabs .member-bor {
+        width: 50%;
+    }
+    .formobile {
+        display: none;
+    }
+}
+@media #{$information-desktop} {
+    .account_tabs .nav-item {
+        width: 100%;
+        text-align: left;
+        border: 0;
+    }
+    .account_tabs .member-bor {
+        width: 100%;
+    }
+    .membership-popup .modal-dialog {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .formobile {
+        display: none;
+    }
+}
+@media #{$information-tablet} {
+    .pricing-popup .pricing > div {
+        float: left;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .account_tabs .container-fluid {
+        width: 100% !important;
+    }
+}
+@media #{$information-phone} {
+    .pricing-mobile {
+        display: block;
+    }
+    .pricing-desktop {
+        display: none;
+    }
+    .pricing-popup .modal-dialog.modal-width--custom {
+        width: 100% !important;
+        max-width: 100% !important;
+        float: left;
+        display: block !important;
+    }
+    .pricing-mobile ul.slick-dots {
+        margin-bottom: 30px;
+    }
+    .pricing-mobile .slick-slide img {
+        display: table;
+        margin: 0 auto;
+    }
+    .pricing-popup .pricing > div {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pricing-popup {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .account_tabs {
+        .nav-item {
+            width: 100%;
+        }
+    }
+    .text-new {
+        text-align: center;
+    }
+    .cond-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .account_tabs .cond-btn img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background: none;
+        width: 200px;
+        height: auto;
+        background-position: center;
+        right: auto;
+        margin-left: -98px;
+    }
+    .Account_details .member-txt {
+        font-size: 19px !important;
+    }
+    .account_tabs .save-btn {
+        width: 100%;
+    }
+    .Account-bg {
+        height: auto !important;
+        background-size: cover;
+    }
+    .account_tabs .container-fluid {
+        width: 75% !important;
+    }
+    .fordesktop {
+        display: none;
+    }
+
+    .formobile {
+        display: block;
+    }
+}

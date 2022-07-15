@@ -1,0 +1,27 @@
+.p_tb_55{
+    padding:55px 0 !important;
+}
+.iframevideo {
+    width: 100% !important;
+    height: 100% !important;
+    display:flex;
+    align-items: flex-start;
+    iframe {
+        width: 80% !important;
+        height: 70%!important;
+    }
+} 
+.floatLeft{
+    order:1;
+}
+.floatRight{
+    order:2;
+}
+
+@media only screen and (max-width: 767px) {
+    .teenonbeams_sec {
+        .floatLeft, .floatRight {
+        text-align:center !important;
+        }
+    }
+}

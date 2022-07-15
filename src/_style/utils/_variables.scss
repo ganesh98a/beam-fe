@@ -1,0 +1,128 @@
+// color variables
+$Ghost:#ced4da;           // border input color
+$Gallery:#ededed !important;    // body bg color after login
+$Gray:#878787;
+$Malibu:#80BDFF;
+$Transparent: transparent !important;
+$ScienceBlue:#0064BC;           // heading color
+$Woodsmoke:#0B0C0D;   // Link blue color
+$OutrageousOrange:#FF6633;           // button orange
+$White:#fff !important;
+$Black:#000;
+$GoldenTainoi:#FFCC66;
+$TwilightBlue:#EFFDFF;
+$IceCold:#91f1db;
+$Amethyst:#9966CC;
+$Sazerac:#FFF5E0;
+$Abbey:#545556;
+$Fedora:#666366;
+$WildSand:#f5f5f5;
+$Chambray:#3B5998;
+$PictonBlue:#55ACEE;
+$Punch:#DD4B39;
+$DeepCerulean:#0976B4;
+$white: #fff;
+$Sazerac:#FFF5E0;
+$Silver:#cccccc;
+$Fern:#66BB6A;
+$WildSand:#f4f4f4;
+$Kournikova:#ffd177;
+$PickledBean:#6d3725;
+$DoveGray:#6d6d6d;
+$CornflowerBlue:#6195ED;
+$Lochmara:#0073c2;
+$Magnolia:#F4EFFF;
+$BarleyWhite:#fff2c8;
+$Shark:#2A2B2C;
+$Aluminium: #A5A6A9;
+$MineShaft: #333333;
+$Grandis:#FFD685;
+$Buttermilk:#FFECB0;
+$PeachSchnapps:#FFE0D6;
+$SilverSand:#b9bdc2;
+$Monsoon:#878587;
+$DodgerBlue :#1da1f2;
+$PeachSchnapps:#ffe0d6;
+$Mercury:#E9E9E9;
+$Abbey:#53565a;
+$Bombay:#b6b7ba;
+$Whiteapprox:#FDFDFD;
+$PearlBush:#eeeadf;
+$IslandSpice:#fffbef;
+$GoldenTainoi:#FFCC66;
+$IslandSpice:#FFFBEF;
+$FrenchGray:#BFBFC1;
+$Sycamore:#9e7e3f;
+$Lavender:#AD7AE1;
+$BurningOrange:#ff6f3e;
+$Paarl:#9E4A2F;
+$WhiteIce:#e3f7fa;
+$TurquoiseBlue:#72d6e6;
+$Turquoise:#71D6E6;
+$Tundora:#4A4244;
+$Alto:#dbdbdb;
+$Concrete:#f2f2f2;
+$Orange:#FF681F;
+$LightWisteria:#c2a3e0;
+$Cerulean:#00acee;
+$BeamOchre20:#fff5e0;
+$BeamPurple:#ad85d6;
+
+// for progress bar
+$circle-width: 0.08em;
+$circle-width-hover: 0.04em;
+// colors default
+$primary-color: #307bbb;
+$secondary-color: #ccc;
+$bg-color: #f5f5f5;
+$primary-color-green: #4db53c;
+$primary-color-orange: #dd9d22;
+// colors dark skin
+$primary-color-dark: #c6ff00;
+$secondary-color-dark: #777;
+$bg-color-dark: #666;
+$primary-color-green-dark: #5fd400;
+$primary-color-orange-dark: #e08833;
+// font variables
+$MyriadPro-Light: 'MyriadPro-Light' !important;
+$MyriadPro-Regular: 'MyriadPro-Regular' !important;
+$segoeui: 'segoeui' !important;
+$SegoeUI-Bold: 'SegoeUI-Bold' !important;
+$segoeuib: 'segoeuib' !important;
+$segoeuil: 'segoeuil' !important;
+$seguisb: 'seguisb' !important;
+$fontawesome: 'FontAwesome' !important;
+$simple: 'simple-line-icons' !important;
+$Gotham-book:'Gotham-book' !important;
+$Gotham-medium:'Gotham-medium' !important;
+$Gotham-bold:'Gotham-bold' !important;
+$Mbold:'Mbold' !important;
+$Mblack:'Mblack' !important;
+$Mlite:'Mlite' !important;
+$Mregular:'Mregular' !important;
+$Mmedium:'Mmedium' !important;
+$Msemibold:'Msemibold' !important;
+$Mthin:'Mthin' !important;
+$Qbold:'Qbold' !important;
+$Qlite:'Qlite' !important;
+$Qmedium:'Qmedium' !important;
+$Qregular:'Qregular' !important;
+$Rregular:'Rregular' !important;
+$SFregular: 'SFregular' !important;
+
+
+// space variables
+$spaceamounts: (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100); // Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); // Leave this variable alone
+
+$none:none !important;
+$xs: 767px;
+$sm: 991px;
+$md: 1199px;
+$lg: 1366px;
+$xlg: 1920px;
+$information-phone: "only screen and (max-width : 767px)";
+$information-tablet: "only screen and (max-width : 991px)";
+$information-desktop: "only screen and (max-width : 1199px)";
+$information-large: "only screen and (max-width : 1366px)";
+$information-xtralarge: "only screen and (max-width : 1920px)";

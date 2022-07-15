@@ -1,0 +1,167 @@
+// font mixin
+@mixin fontFace($family,$src,$style: normal,$weight: normal) {
+@font-face {
+font-family: $family;
+src: url('#{$src}.eot'); // IE9 compat
+src: url('#{$src}.eot?#iefix') format('embedded-opentype'), // IE8 and below
+url('#{$src}.woff') format('woff'), // standards
+url('#{$src}.ttf') format('truetype'), // Safari, Android, iOS
+url('#{$src}.svg##{$family}') format('svg'); // legacy iOS
+font-style: $style;
+font-weight: $weight;
+}
+}
+
+// placehlder mixin
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+
+// text truncate  mixin
+@mixin truncate($truncation-boundary) {
+    max-width: $truncation-boundary;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// button theme mixin
+@mixin button-bg($bg, $tc) {
+  background: $bg;
+  color:$tc;
+  @extend %Mregular;
+  font-size: 1rem;
+  @include padding(0.4rem 2.8rem);
+  @include borderradius(2rem);
+  &:hover {
+    background:darken($bg,8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background:darken($bg,25%);
+  }
+}
+@mixin button-bg-inv($bg, $tc) {
+  background: $bg;
+  color:$tc;
+  @extend %Msemibold;
+  font-size: 1rem;
+  @include padding(0.342rem 1.1rem);
+  @include borderradius(2rem);
+  &:hover {
+    transition: all 0.3s ease;
+    color:$tc;
+  }
+  &:active {
+    color:$tc;
+  }
+}
+@mixin button-bluebg($bg, $tc) {
+  background: $bg;
+  color:$tc;
+  @extend %Mregular;
+  font-size: 1rem;
+  border-color:$TurquoiseBlue;
+  @include padding(0.342rem 1.1rem);
+  @include borderradius(2rem);
+  &:hover {
+    background:darken($bg,8%);
+    transition: all 0.3s ease;
+    color:$White;
+  }
+  &:active {
+    background:darken($bg,25%);
+  }
+}
+
+// flex with center  mixin
+@mixin d-flex($bg, $tc, $ct, $tf) {
+  display: $bg;
+  align-items:$tc;
+  justify-content:$ct;
+  flex-direction:$tf;
+}
+
+
+
+// padding mixin
+@mixin padding($padding){
+  padding:$padding;
+}
+
+
+
+// margin mixin
+@mixin margin($margin){
+  margin:$margin;
+}
+
+
+
+// border radius mixin
+@mixin borderradius($br){
+  border-radius:$br !important;
+}
+
+
+// keyframe mixin
+@mixin keyframes($name) {
+   @-webkit-keyframes #{$name} {
+     @content;
+   }
+   @-moz-keyframes #{$name} {
+     @content;
+   }
+   @keyframes #{$name} {
+     @content;
+   }
+}
+
+
+// mixins
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin rotate($rotation) {
+    -webkit-transform: rotate($rotation);
+    -moz-transform: rotate($rotation);
+    -ms-transform: rotate($rotation);
+    -o-transform: rotate($rotation);
+    transform: rotate($rotation);
+}
+
+@mixin box-sizing($box-sizing) {
+    -webkit-box-sizing: $box-sizing;
+    -moz-box-sizing: $box-sizing;
+    box-sizing: $box-sizing;
+}
+@mixin transition-property($transition) {
+    -webkit-transition-property: $transition;
+    -moz-transition-property:$transition;
+    -o-transition-property:$transition;
+    transition-property: $transition;
+}
+
+@mixin transition-duration($duration) {
+    -webkit-transition-duration: $duration;
+    -moz-transition-duration:$duration;
+    -o-transition-duration: $duration;
+    transition-duration: $duration;
+}
+
+@mixin transition-timing-function($timing){
+    -webkit-transition-timing-function: $timing;
+    -moz-transition-timing-function: $timing;
+    -o-transition-timing-function: $timing;
+    transition-timing-function: $timing;
+}
+

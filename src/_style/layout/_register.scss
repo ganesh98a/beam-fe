@@ -1,0 +1,443 @@
+// primary footer
+.first-section {
+  .btn-facebook {
+    font-size: 1.5rem;
+  }
+  .btn-facebook i {
+    font-size: 2.7rem;
+
+    vertical-align: middle;
+    padding-right: 10px;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  .btn-login {
+    background: $TurquoiseBlue;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    padding: 0.4rem 1rem;
+    color: #fff !important;
+    height: 61px;
+    text-align: left;
+    font-size: 1.5rem;
+
+    margin: 0 auto;
+  }
+  .btn-facebook {
+    background: #4266b7;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+    padding: 0.4rem 1rem;
+    transition: all 0.2s;
+
+    color: #fff !important;
+    height: 61px;
+    text-align: left;
+  }
+  .btn-login i {
+    font-size: 2.4rem;
+    padding-right: 10px;
+    vertical-align: middle;
+  }
+  span.signup-text {
+    vertical-align: sub;
+  }
+}
+.close-register {
+  position: absolute;
+  right: 1em;
+  font-size: 20px;
+  top: 0.4em;
+}
+
+.btn-gender {
+  height: 38px;
+  line-height: 26px;
+}
+.css-3rj0br-ReactDropdownSelect span {
+  vertical-align: middle;
+  margin-top: 11px;
+  padding-left: 10px;
+}
+#register-box input {
+  min-height: 48px;
+}
+#register-box .radio input[type="radio"] + .radio-label:before {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#register-box select {
+  text-indent: 1px;
+  text-overflow: "";
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 3px 3px 3px 11px;
+  border: 1px solid $Alto;
+  background: transparent url(/images/select.png) no-repeat;
+  height: 48px;
+  width: 100%;
+  background-position: 96%;
+  margin: 0 auto;
+  display: table;
+  color: $Shark;
+  font-size: 14px;
+  @extend %Qregular;
+}
+.con-btn {
+  height: 67px;
+  color: #fff !important;
+  font-size: 0.8rem;
+  border-radius: 8px !important;
+  border: 0;
+  text-align: left;
+  width: 100%;
+  padding: 5px 16px;
+}
+.con1 {
+  background: $TurquoiseBlue;
+}
+.con2 {
+  background: $OutrageousOrange;
+}
+.con-btn img {
+  width: 30px;
+  position: absolute;
+  left: 50%;
+}
+.video-tag1 img {
+  width: 200px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.video-tag2 img {
+  width: 200px;
+  margin-bottom: 40px;
+}
+#register {
+  background: url(/images/registerpagebg.jpg);
+  //height: 100vh;
+  background-size: 100% 100%;
+  .register_logo {
+    border-bottom: 1px solid $Concrete;
+  }
+  h3 {
+    color: $OutrageousOrange;
+    background: $Sazerac;
+    font-size: 1.5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    //height: 103px;
+    //padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @extend %Msemibold;
+    overflow: hidden;
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+  .set-offset {
+    margin-left: 50px;
+  }
+  #register-form {
+    border: 1px solid $Alto;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    background: $White;
+    .text-label {
+      color: $Shark;
+      font-size: 1rem;
+      @extend %Qmedium;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+  .close-register {
+    margin: 10px 10px 0 0;
+  }
+  .arrow-img {
+    margin: 10px 0 0 10px;
+  }
+}
+#register-link .bluebtn {
+  font-size: 14px;
+  //height: 20px;
+  vertical-align: middle;
+  line-height: 27px;
+  width: 72% !important;
+  margin: 0 auto;
+  display: table;
+  float: none !important;
+}
+#register-link .btn-blue-inverse {
+  font-size: 14px;
+  height: 38px;
+  vertical-align: middle;
+  line-height: 27px;
+  width: 72% !important;
+  margin: 0 auto;
+  display: table;
+  float: none !important;
+}
+
+.thanksimg img {
+  width: 73%;
+}
+#register-form .pricing p {
+  color: #53565a;
+  font-size: 0.75rem;
+}
+#register-link .btn-blue-inverse {
+  background: #fff !important;
+  color: $Turquoise;
+  font-size: 14px;
+  padding: 0.342rem 1.1rem;
+  border-radius: 2rem !important;
+  border: 1px solid $Turquoise;
+  text-decoration: none !important;
+  height: 38px;
+  line-height: 27px;
+}
+#register-form .arrow-img {
+  position: absolute;
+  left: 1em;
+  top: 0.4em;
+}
+
+/*toggle*/
+
+.switch {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 46px;
+  vertical-align: middle;
+  input {
+    display: none;
+  }
+}
+.slider {
+  background-color: $Silver;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+  &:before {
+    background-color: $White;
+    bottom: 3px;
+    content: "";
+    height: 15px;
+    left: 2px;
+    position: absolute;
+    transition: 0.4s;
+    width: 15px;
+  }
+}
+input {
+  &:checked {
+    & + .slider {
+     // background-color: $Fern;
+      background-color: $Turquoise;
+      &:before {
+        transform: translateX(26px);
+      }
+    }
+  }
+}
+.slider.round {
+  border-radius: 34px;
+  &:before {
+    border-radius: 50%;
+  }
+}
+
+/*radio-btn*/
+
+.radio {
+  margin: 0;
+  line-height: 16px !important;
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    + .radio-label {
+      &:before {
+        content: "";
+        background: $WildSand;
+        border-radius: 100%;
+        border: 1px solid darken($WildSand, 25%);
+        display: inline-block;
+        width: 0.8em;
+        height: 0.8em;
+        position: relative;
+        top: -0.2em;
+        margin-right: 1em;
+        vertical-align: top;
+        cursor: pointer;
+        text-align: center;
+        transition: all 250ms ease;
+      }
+    }
+    &:checked {
+      + .radio-label {
+        &:before {
+          background-color: $Orange;
+          box-shadow: inset 0 0 0 4px $WildSand;
+        }
+      }
+    }
+    &:focus {
+      + .radio-label {
+        &:before {
+          outline: none;
+          border-color: $Orange;
+        }
+      }
+    }
+    &:disabled {
+      + .radio-label {
+        &:before {
+          box-shadow: inset 0 0 0 4px $WildSand;
+          border-color: darken($WildSand, 25%);
+          background: darken($WildSand, 25%);
+        }
+      }
+    }
+    + .radio-label {
+      &:empty {
+        &:before {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+/* 	.step1 {
+      display: none;
+  }
+  .step2 {
+      display: none;
+  }
+  .step3 {
+      display: none;
+  }
+  .step4 {
+      display: none;
+  }
+  .step5 {
+      display: none;
+  }
+  .step6 {
+      display: none;
+  }
+  .step7 {
+      display: none;
+  }
+  .step8 {
+    display: none;
+  }
+  .step9 {
+      display: none;
+  }
+  .step10 {
+      display: none;
+  }
+  .step11 {
+      display: none;
+  }
+  .step12 {
+      display: none;
+  }
+  .step13 {
+      display: none;
+  }
+  .step14 {
+      display: none;
+  }
+  .step15 {
+      display: none;
+  }
+  */
+.video-tag iframe {
+  border: 0;
+  border-radius: 0.3rem;
+  width: 100%;
+}
+.brown-btn img {
+  position: absolute;
+  right: 85px;
+  top: 7px;
+}
+.card-details--page {
+  .input-control {
+    border-radius: 0.2rem !important;
+  }
+  .postal-code {
+    padding: 0;
+  }
+}
+.logo-size{
+  //width:200px;
+  width:125px;
+}
+.logo-size-member-content{
+  //width:200px;
+  width:125px;
+  margin: 0px 50px;
+}
+// media query
+@media #{$information-large} {
+  .first-section .btn-facebook {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .first-section .btn-login {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .register-heading {
+    margin-top: 50px;
+  }
+}
+@media #{$information-tablet} {
+  .input_section {
+    flex: 0 0 90% !important;
+    max-width: 90% !important;
+    padding: 1rem !important;
+  }
+  .postal-code {
+    padding: 0 15px;
+  }
+}
+@media #{$information-phone} {
+  .input_section {
+    flex: 0 0 90% !important;
+    max-width: 90% !important;
+    padding: 1rem !important;
+  }
+  .exp-date {
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  #register h3 {
+    //height: 120px;
+    font-size: 1.3rem;
+  }
+  #register .set-offset {
+    margin-left: 0px;
+  }
+  span.signup-text {
+    font-size: 10px;
+    font-family: MSemibold;
+  }
+  .register-heading {
+    margin-top: 10px;
+  }
+}

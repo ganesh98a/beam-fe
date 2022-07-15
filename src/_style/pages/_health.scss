@@ -1,0 +1,105 @@
+.healthpage-content {
+	.section-1 {
+		background: url(/images/healthbanner.png) no-repeat center center;
+		background-size: cover;
+		height: 383px;
+		
+	}
+	.sub-health-cont {
+    padding-bottom: 40px;
+}
+	.w-36{
+	width:36% !important;
+	}
+	.section3-bg {
+		
+	}
+	.lightblue-bg {
+		background: $TwilightBlue;
+	}
+	.redtext {
+		color: $OutrageousOrange !important;
+	}
+	.readmore.redtext{
+		text-decoration: underline;
+	}
+	.sectionnew-5 p.card-text{
+		
+	}
+	
+    .header-custom .btn-purple {
+        padding: 0.3rem 4rem;
+    }
+}
+.image-content {
+	
+	.grey-text {
+		
+		color: $Aluminium;
+	}
+}
+.grey-text {
+    color: #A5A6A9;
+}
+.sectionnew-4{
+	height:256px;
+}
+.r-image {
+	width: 550px !important;
+}
+.sectionnew-5 {
+	.btn-blue-inverse {
+		color: $Amethyst !important;
+		border-color: $Amethyst !important;
+	}
+	h5 {
+		color: $MineShaft !important;
+	}
+}
+.health-last .btn-send {
+    background: #9966CC;
+    padding: .6rem 6rem !important;
+    border-radius: 2rem;
+    color: #fff !important;
+}
+#summary p.collapse:not(.show) {
+    height: 125px !important;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+#summary p.collapsing {
+    min-height: 42px !important;
+}
+
+#summary a.collapsed:after  {
+    content: ' Read More';
+}
+
+#summary a:not(.collapsed):after {
+    content: ' Read Less';
+}
+.healthpage-content #summary .card-text {
+    float: left;
+}
+@media #{$information-large}{
+.healthpage-content {
+	.section-1 {
+	height: auto !important;
+	}
+	.sub-health-cont {
+    padding-bottom: 10px;
+}
+	.sectionnew-4{
+	height:auto !important;
+}
+}
+}
+@media #{$information-phone}{
+.r-image {
+	width: 100% !important;
+}
+}

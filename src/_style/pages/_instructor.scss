@@ -1,0 +1,110 @@
+.user-profile {
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.18);
+    padding: 20px 15px;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: 5px solid #71d6e6 !important;
+    img {
+        width: 170px;
+    }
+    .instru_head {
+        color: $TurquoiseBlue;
+    }
+    .in_subhead {
+        color: $Aluminium;
+    }
+    img.tiktok {
+        width: 10.8px;
+        display: inline-block;
+        margin-bottom: 3px;
+    }
+}
+.card-design {
+    overflow: hidden;
+    border: 1px solid $Gallery;
+    border-radius: 5px;
+}
+.blog-content {
+    padding: 20px 10px;
+    .btn-purple {
+        padding: 10px 20px;
+    }
+    .blog_head {
+        width: 60%;
+        color: $Shark;
+    }
+    .blog-bottom {
+        img {
+            width: 40px;
+        }
+    }
+}
+.vid_time {
+    right: 11px;
+    bottom: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0px 5px;
+    border-radius: 5px;
+    span {
+        color: $White;
+        font-size: 0.8rem;
+    }
+}
+.demand_head {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5rem;
+    text-align: left;
+}
+.left-image {
+    width: 28px;
+}
+.left-insimage {
+    width: 50px;
+}
+.left-content {
+    width: 100px;
+}
+.four_grid .left-image {
+    width: 28px !important;
+    vertical-align: middle;
+}
+.four_grid .left-image {
+    width: 50px !important;
+    vertical-align: middle;
+}
+.four_grid .left-content {
+    vertical-align: middle;
+    margin-top: 3px;
+    margin-bottom: 0;
+    line-height: 15px;
+}
+
+@media #{$information-large} {
+    .left-content {
+        width: 90px;
+    }
+    .instruct_body {
+        height: 133px !important;
+        overflow: hidden;
+    }
+    .user-profile img {
+        width: 115px;
+    }
+    .blog-content .btn-purple {
+        font-size: 10px !important;
+    }
+    .search-btn {
+        width: 90% !important;
+    }
+}
+@media #{$information-phone} {
+    .search-btn {
+        width: 100% !important;
+    }
+}
+.instructor-cms .avatar-upload{
+    width: 800px;
+}

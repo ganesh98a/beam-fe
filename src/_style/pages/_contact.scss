@@ -1,0 +1,113 @@
+.contactcontent{
+.section-1 { 
+	background:url('/images/contactbanner.png') no-repeat center center;
+	background-size: cover;
+	height: 383px;
+	text-align: center;
+	padding: 2rem;
+}
+h5.description {
+	margin-bottom: 2rem;
+	color: $White;
+	font-size: 1.7rem !important;
+}
+.section-2 {
+	p {
+		font-weight: normal !important;
+		font-size:0.9rem;
+	}
+	padding: 2rem;
+}
+.socialicons {
+	ul {
+		li {
+			list-style: none;
+			display: inline;
+		}
+	}
+	i {
+		color: $TurquoiseBlue;
+		font-size: 1.7rem;
+		padding: 0.6rem;
+	}
+}
+.section-3 { 
+	background: $Sazerac;
+	padding: 3rem;
+	text-align: center;
+	height:264px;
+    .emailus {
+        margin-bottom: 0.7rem;
+    }
+    h5.email-us {
+        color: $OutrageousOrange;
+        font-size: 1.7rem !important;
+        margin-bottom: 0.8rem;
+	} 
+    span.rightlabel-grey {
+        color: $Fedora;
+		font-size: 1rem;
+		img {
+			width: 1.2rem;
+			margin-left: .4rem;
+		}
+        
+    }
+    span.leftlabel-red {
+        color: $OutrageousOrange;
+        font-size: 1rem;
+        
+    }
+}
+.section-4 {
+    background:url('/images/bottom.png') no-repeat left bottom;
+    background-size:38%;
+	label {
+		color:$Tundora;
+	}
+	padding: 3rem 2rem;
+	a.button-style {
+		padding: 0.342rem 3rem;
+		color: $White !important;
+	}
+	.header-custom {
+		margin-top: 2rem !important;
+	}
+
+    h5.form-heading {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 2.5rem;
+        margin-top: 1.5rem;
+    }
+    textarea {
+        resize: none;
+	}
+	input{
+		font-size: 0.9rem;
+		border-radius: .3rem !important;
+	}
+	.btn-send{
+		background: $TurquoiseBlue;
+		padding: .3rem 5.5rem !important;
+		border-radius: 2rem;
+		color:$White;
+	}
+}
+}
+@media #{$information-large} {
+.contactcontent .section-3 {
+    height: auto;
+}
+.contactcontent .section-1 {
+    height: 250px;
+}
+}
+@media #{$information-phone} {
+.contactcontent .section-3 {
+    height: auto;
+}
+.contactcontent .section-1 {
+    height: 250px;
+}
+}

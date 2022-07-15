@@ -1,0 +1,127 @@
+
+.width-set{
+          width: 70.99999%;
+          margin-left: 13.3333%;
+          background: $Concrete;
+          border: 0.1rem solid $Gallery;
+          box-shadow: $none;
+    .left-side{
+           h2 {
+          font-size: rem(24px);
+          color: $Black;
+          @extend %SegoeUI-Bold;
+          text-align: center;
+          @include margin(1rem 0 0 0);
+          }
+          h3 {
+          font-size: rem(19px);
+          color: $Black;
+          line-height: 2.6rem;
+          }
+          .paragraph-style {
+          color: $DustyGray;
+          font-size: rem(12px);
+          @extend %segoeui;
+    }
+    .listing-style{
+      @include margin(7rem 0 5rem 0);
+      @include padding(0 0 0 6rem);
+
+      li{
+         font-size: rem(17px);
+      }
+    }
+    .already-account {
+       @include margin(0 0 13rem 4rem);
+       a{
+        color:$AzureRadiance;
+        text-decoration: $none;
+       }
+    }
+
+    }
+    .right-side{
+          background: $White;
+          padding-bottom:5rem;
+          @include padding(0);
+          .form {
+            @include padding(30px 30px 10px 10px);
+
+    }
+        .policy-accept {
+        input {
+        position: relative;
+        top: 2px;
+        margin-right: 5px !important;
+        }
+        }
+
+      .form-group{
+        .countryflag{
+          position: relative;
+        }
+          .countryflag .flagcontainer {
+          width: 70px !important;
+          @include padding(7px 10px);
+          background: $Concrete;
+          border-right: 0 !important;
+          @include d-flex(flex,center,flex-start,row);
+          position: absolute;
+          top:0;
+          left:0;
+
+          }
+          .countryflag input {
+          width: 100% !important;
+          border-left: 0 !important;
+          @include padding(0 0 0 8rem);
+
+          }
+        label{
+          
+          color:$Tundora;
+          font-size: rem(14px);
+
+        }
+         .form-control{
+        height:34px !important;
+        box-shadow: $none;
+        @include borderradius(0);
+        }
+      }
+        .text-policy {
+         
+          font-size: rem(13px);
+          a{
+            color:$AzureRadiance;
+          }
+        }
+          .text-lg-center.button-login button {
+          width: 300px;
+          @include borderradius(3px);
+          box-shadow: $none;
+          background: $AzureRadiance;
+          @extend %SegoeUI-Bold;
+          font-size: rem(13px);
+          color:$White;
+          @include margin(3rem);
+          .fa{
+            @extend %fontawesome;
+          }
+
+          }
+        .policy-accept{
+        display: inline-flex;
+        input{
+          height:10px !important;
+        }
+        // align-items: center;
+        .text-policy{
+        position: relative;
+        top:3px;
+        }
+        }
+
+    }
+
+}

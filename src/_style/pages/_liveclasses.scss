@@ -1,0 +1,424 @@
+.liveclassescontent .livesection1-bg {
+  background: url(/images/aboutclass-banner.png);
+  background-size: 100% 100%;
+  height: 383px;
+}
+.liveclassescontent .subhead {
+  font-size: 1.2rem;
+}
+.floting-text {
+  font-size: 1rem;
+  transform: rotate(20deg);
+  top: -4px;
+}
+.w-86 {
+  width: 86%;
+}
+
+.livesection2-bg {
+  background: $White;
+}
+.livesection3-bg {
+  background: $TwilightBlue;
+  height: 367px;
+}
+.livesection4-bg {
+  background: $White;
+}
+.livesection5-bg {
+  background: $Magnolia;
+  height: 498px;
+}
+.livesection6-bg {
+  background: $White;
+}
+.livesection7-bg {
+  background: $BarleyWhite;
+  .accordion {
+    width: 80%;
+  }
+  .card {
+    margin-bottom: 20px;
+    border: none;
+    .card-header {
+      background: #ffffff;
+    }
+    .faq-btn {
+      text-decoration: none !important;
+      color: $Shark;
+      padding-right: 24px;
+      .plus-sign {
+        right: 3px;
+        width: 1rem;
+        top: 9px;
+      }
+    }
+  }
+}
+.mobile-view {
+  display: none;
+}
+.livesection3-bg .btn-orange,
+.livesection3-bg .btn-purple,
+.livesection3-bg .btn-yellow,
+.livesection3-bg .btn-blue,
+.livesection3-bg .btn-darkblue{
+  //width: 180px;
+  width: 100%;
+}
+.livesection3-bg img {
+  width: 380px;
+}
+.livesection6-bg img {
+  width: 400px;
+}
+@media #{$information-large} {
+  .livesection3-bg img {
+    width: 100%;
+  }
+  .livesection6-bg img {
+    width: 100%;
+  }
+  .livesection1-bg {
+    height: auto !important;
+  }
+  .livesection5-bg {
+    height: auto !important;
+  }
+  .livesection3-bg {
+    height: auto !important;
+  }
+  .font-24 {
+    font-size: 1.3rem !important;
+  }
+}
+.instruct-card-design:hover .blog-top a p {
+  color: #72d6e6;
+}
+.instruct-card-design:hover .instructor-photo img {
+  border: 3px solid #72d6e6;
+  border-radius: 50%;
+}
+@media #{$information-desktop} {
+  .months-list span {
+    padding: 0.2rem 0.55rem !important;
+    font-size: 13px !important;
+  }
+  .months-list span.active {
+    padding: 0.2rem 0.55rem !important;
+    font-size: 13px !important;
+  }
+  .mobile-view {
+    display: none;
+  }
+
+  .livesection1-bg {
+    height: auto !important;
+  }
+  .livesection5-bg {
+    height: auto !important;
+  }
+  .livesection3-bg {
+    height: auto !important;
+  }
+  .font-24 {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media #{$information-tablet} {
+  .months-list span {
+    padding: 0.2rem 0.44rem !important;
+    font-size: 13px !important;
+  }
+  .months-list span.active {
+    padding: 0.2rem 0.44rem !important;
+    font-size: 13px !important;
+  }
+  .workshedule {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+  .btngroup {
+    flex: 0 0 100% !important;
+    max-width: 100%;
+  }
+  .accordion {
+    width: 75% !important;
+  }
+}
+@media #{$information-phone} {
+  .livesection3-bg .w-75 {
+    width: 90% !important;
+  }
+  .livesection2-bg .container {
+    width: 90% !important;
+  }
+  .livesection4-bg .orders-last {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .livesection4-bg .m-t-80 {
+    margin-top: 30px !important;
+  }
+  .livesection4-bg h4,
+  .livesection4-bg p {
+    text-align: center;
+    width: 100%;
+  }
+  .livesection3-bg h4,
+  .livesection3-bg p {
+    text-align: center;
+    width: 100%;
+  }
+  .livesection3-bg .btn-orange {
+    margin: 0 auto;
+    display: table;
+  }
+  .livesection6-bg p,
+  .livesection6-bg h4 {
+    text-align: center;
+    width: 100%;
+  }
+  .accordion {
+    width: 100% !important;
+  }
+
+  .livesection1-bg {
+    height: auto !important;
+    background-size: unset !important;
+    .w-75 {
+      padding-bottom: 20px !important;
+    }
+  }
+
+  .livesection5-bg {
+    height: auto !important;
+    .w-50 {
+      width: 90% !important;
+    }
+  }
+  .livesection3-bg {
+    height: auto !important;
+  }
+
+  .mobile-view {
+    display: block !important;
+  }
+  .condemand .on-liveclasses {
+    margin-top: -20px !important;
+  }
+  .tab-btn {
+    z-index: 1;
+  }
+  .small-device {
+    width: 50% !important;
+    float: left;
+  }
+  .small-device .m-t-20 {
+    margin-top: 0 !important;
+  }
+  .mobile-view .months-list span {
+    float: left;
+    line-height: 1rem;
+    margin: 0 0.8rem !important;
+  }
+  .mobile-view .months-list span.active {
+    padding: 0.3rem 0.8rem;
+    background: #72d6e6;
+    margin: 0 0.2rem;
+    color: #fff !important;
+    border-radius: 9rem;
+    float: left;
+    line-height: 1rem;
+    margin: 0 0.8rem !important;
+    font-size: 10px !important;
+  }
+  .listname.w-100.desktop-view {
+    display: none;
+  }
+  .months-list span {
+    font-size: 10px !important;
+  }
+
+  .mobile-view .months-list {
+    width: 13%;
+  }
+  .condemand .on-liveclasses .list_section {
+    background: #fff;
+    padding: 0 2rem;
+  }
+  .small-device img.rounded-circle {
+    width: 40px;
+  }
+  .image-size {
+    width: 100% !important;
+  }
+  .small-device.pl-0 {
+    padding-left: 10px !important;
+  }
+  .live-classes--popup.modal-width--custom {
+    width: auto !important;
+  }
+}
+.live-classes--popup .header-styling {
+  background: $Turquoise;
+}
+.live-classes--popup .header-styling .modal-title {
+  color: $White;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.live-classes--popup .header-styling button.close {
+  color: $White;
+  opacity: 1;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 0;
+}
+.live-classes--popup .heading-3 {
+  color: $Shark;
+  font-size: 0.9375rem;
+}
+.live-classes--popup .body-padding--value {
+  padding: 1.8rem;
+}
+.live-classes--popup.modal-width--custom {
+  width: 520px;
+}
+.name-styling {
+  color: $Shark;
+}
+.dateformat-styling {
+  color: $Shark;
+  font-size: 0.9375rem;
+}
+.live-classes--popup .modal-content {
+  padding-bottom: 2rem;
+}
+.text-style {
+  font-size: 0.9375rem;
+  color: $Shark;
+}
+.image-size {
+  width: 252px;
+  //height:142px;
+}
+.list-group-item .pad_list_btn {
+  padding: 0.36rem 1rem !important;
+}
+.vid_time {
+  right: 11px;
+  bottom: -48px;
+}
+
+a.btn.btn-blue-inverse.read-now {
+  width: 168px;
+  height: 37px;
+  padding: 0.6rem;
+  color: $Turquoise;
+  line-height: 15px;
+}
+a.btn.btn-blue-inverse.read-later {
+  width: 168px;
+  height: 37px;
+  padding: 0.6rem;
+  background: $Turquoise !important;
+  color: $White;
+  line-height: 15px;
+}
+.border-box {
+  border: 1px solid #dcdcdc;
+  border-radius: 0.3rem;
+}
+.listname {
+  padding: 0.7rem;
+  border-bottom: 2px solid #dcdcdc;
+}
+h4.section_header.date-heading {
+  padding: 1rem;
+}
+@media only screen and (max-width: 1366px) {
+  .months-list span {
+    margin: 0 2.1rem !important;
+  }
+}
+@media #{$information-phone} {
+  .livesection1-bg {
+    height: auto !important;
+    background-size: unset !important;
+    .w-75 {
+      padding-bottom: 20px !important;
+    }
+  }
+
+  .livesection5-bg {
+    height: auto !important;
+    .w-50 {
+      width: 90% !important;
+    }
+  }
+  .livesection3-bg {
+    height: auto !important;
+  }
+}
+
+.next-class {
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  margin-top: 20px;
+}
+.joinclass-blue-btn {
+  background: #72d6e6 !important;
+  text-align: center;
+}
+.oops-btn {
+  text-align: center;
+}
+.joinclass-btn {
+  border-radius: 2rem;
+}
+.right-angle {
+  text-align: right;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.on-demand-filter-sm-value .card-header .no-nextclass a {
+  color: #71d5e6 !important;
+  border: none !important;
+  text-decoration: underline;
+  padding: 0px !important;
+  margin: 0px !important;
+  width: auto !important;
+  float: unset;
+  font-size: 12px !important;
+}
+.note-actions {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.liveclass-notes ul,
+.liveclass-notes ol {
+  margin-left: 17px;
+}
+.free-icon {
+  left: -21px;
+  top: -20px;
+  width: 100px;
+}
+.poll-title {
+  width: 600px;
+}
+.poll-questions-section {
+  border: 1px solid #cbccd8;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.liveclass-listing {
+  .vid_time {
+    bottom: 8px !important;
+    @extend %Msemibold;
+  }
+}

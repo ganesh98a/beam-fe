@@ -1,0 +1,35 @@
+.cancer_landing_page {
+    .proud-text {
+        margin-top: revert !important;
+    }
+    .helping-physiotherap {
+        font-size: 1.1em !important;
+    }
+    .offer-text {
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .cancer_landing_page {
+        .helping-physiotherap {
+            font-size: 1em !important;
+        }
+        .offer-text {
+            font-size: 16px !important;
+        }
+        .readnow .btn-darkblue{
+            padding: 0px;
+        }
+    }
+}
+@media #{$information-phone} {
+    .cancer_landing_page {
+        .helping-physiotherap {
+            font-size: .8em !important;
+        }
+        .readnow .btn-darkblue{
+            padding: 0px;
+        }
+    }
+}

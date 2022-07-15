@@ -1,0 +1,140 @@
+.help-bg {
+    background: url(/images/help_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height:383px;
+    .search-btn{
+        .form-control {
+         border-top-left-radius: 20px;
+         border-bottom-left-radius: 20px;
+         border-color:$Alto;
+         height: 38px;
+        }
+        .form-control::placeholder {
+         color:#DEDFE0;
+
+       }
+        .input-group-append .btn {
+         border-top-right-radius: 20px;
+         border-bottom-right-radius: 20px;
+         background:$OutrageousOrange;
+         width: 140px;
+         border-color: $OutrageousOrange;
+         height: 38px;
+         font-size: 0.9rem;
+             line-height: 16px;
+        }
+        }
+}
+.abbey-txt{
+  color:$Abbey;
+}
+
+  .help_tabs{
+    .nav-item{
+    width: 60%;
+    }
+    .nav-link {
+    color: $Aluminium;
+    padding-bottom: 3px;
+    border-radius: 0;
+    padding-left: 2px;
+    padding-right: 0;
+    }
+
+    .nav-link.active {
+    border-bottom: 2px solid $OutrageousOrange;
+    background: $White ;
+    color: $Shark;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+    .upload-btn {
+    color: $TurquoiseBlue;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+   }
+   .save-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.8rem;
+}
+
+
+
+   .member-bor{
+    border-radius: 1rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+    }
+    .account_tabs .member-bor {
+    width: 36%;
+}
+
+
+@media #{$information-large} {
+    .search-btn {
+        width: 50%;
+    }
+    .help-bg {
+    height:auto !important;
+
+}
+.help_tabs .member-bor {
+    width:50%;
+}
+}
+@media #{$information-desktop} {
+    .search-btn {
+        width: 50%;
+    }
+.help_tabs .nav-item {
+    width: 100%;
+}
+.help_tabs .member-bor {
+    width:100%;
+}
+.help-bg {
+    height:auto !important;
+    background-size: cover;
+
+}
+}
+@media #{$information-tablet} {
+
+}
+@media #{$information-phone} {
+
+.help_tabs{
+    .nav-item{
+    width: 100%;
+    }
+    }
+    .text-new {
+    text-align: center;
+}
+
+.account_tabs .tab-btn .nav-link.active {
+    border-bottom: none;
+    background: #fff !important;
+    color: #2A2B2C;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.help_tabs .tab-btn .nav-link.active {
+    border-bottom: none;
+    background: #fff !important;
+    color: #2A2B2C;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.help-bg {
+    height: auto !important;
+    background-size: cover;
+}
+}

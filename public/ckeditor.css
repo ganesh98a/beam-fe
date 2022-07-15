@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Qregular"; /* font name for the feature use*/
+    src: url(./font/Qregular/Quicksand-Regular.eot); /* IE */
+    src: local("Qregular"), url("./font/Qregular/Quicksand-Regular.ttf") format("truetype"); /*non-IE*/
+}
+body {
+    font-family: "Qregular";
+}
+.cke_editable {
+    font-family: "Qregular";
+}

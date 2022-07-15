@@ -1,0 +1,446 @@
+.work-with-us {
+    .proud-text{
+        font-size: 1.2em;
+    }
+    div {
+        font-family: "Qregular" !important;
+        font-size: 22px;
+        color: #696969;
+    }
+    h2 {
+        font-family: "Qregular" !important;
+    }
+    .text-danger {
+        font-size: 14px !important;
+        margin: 0;
+    }
+    .bundle-price h2 {
+        text-align: center;
+        padding: 2em 0em 1em 0em;
+        font-weight: bold;
+    }
+    section {
+        padding: 2rem;
+    }
+    .bg-primary {
+        background-color: white;
+    }
+    .bg-contrast {
+        background-color: #e9fcf8;
+    }
+    p {
+        margin: 1em 0;
+        padding: 0;
+        font-size: 18px;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat";
+    }
+    h1 {
+        font-size: 36px;
+        padding: 1em 0em 1em 0em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+        padding: 1em;
+    }
+
+    .beam-for-clinicians {
+        color: #0073c2;
+        font-family: Msemibold !important;
+        font-size: 32px;
+        letter-spacing: 0.03px;
+        line-height: 48px;
+        padding-top: 3em;
+    }
+    .helping-physiotherap {
+        color: #0073c2;
+        font-family: Quicksand;
+        font-size: 22px;
+        letter-spacing: 0.02px;
+        line-height: 28px;
+        clear: both;
+        padding-top: 1em;
+    }
+    .partner-title-blue {
+        color: #0073c2;
+        font-family: Msemibold !important;
+        font-size: 28px;
+        letter-spacing: 0.03px;
+        line-height: 48px;
+        padding: 1em 0em;
+        text-align: center;
+    }
+    .p-t-3 {
+        padding-top: 3em !important;
+    }
+    .p-r-1 {
+        padding-right: 1em;
+    }
+    .p-b-2 {
+        padding-bottom: 2em !important;
+    }
+    .m-t-3 {
+        margin-top: 3em !important;
+    }
+    .partner-title-purple {
+        color: #9966cc;
+        font-family: Msemibold !important;
+        font-size: 28px;
+        letter-spacing: 0.03px;
+        line-height: 48px;
+        padding: 1em 0em 1em 0em;
+        text-align: center;
+    }
+    .partner-title-orange {
+        color: #ff6633;
+        font-family: Msemibold !important;
+        font-size: 28px;
+        letter-spacing: 0.03px;
+        line-height: 48px;
+        padding: 1em 0em 1em 0em;
+        text-align: center;
+    }
+    .section-content {
+        color: #53565a;
+        font-family: Quicksand;
+        font-size: 18px;
+        letter-spacing: 0.01px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .section-content a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    .Qbold {
+        font-family: Quicksand-bold;
+    }
+    .second-nav {
+        height: 50px;
+        color: #ff6633;
+        font-family: Montserrat;
+        line-height: 50px;
+        font-size: 18px;
+        text-align: right;
+        z-index: 100;
+    }
+    .third-nav {
+        height: 40px;
+        color: #9966cc;
+        font-family: Montserrat;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .nav-item {
+        padding-right: 2em;
+        display: inline-block;
+    }
+    .nav-item a {
+        color: #ff6633;
+    }
+    .third-nav-item {
+        padding-right: 1.5em;
+        float: left;
+    }
+
+    .col-centered {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .w-80 {
+        width: 80%;
+    }
+
+    .nav-button {
+        border-radius: 15px;
+        padding: 0.5em 1em;
+        color: white;
+        margin-right: 1em;
+        font-size: 16px;
+        float: left;
+        margin-top: 1em;
+        font-weight: bold;
+    }
+    .blue-btn {
+        background: #0073c2;
+        border: thin solid #0073c2;
+    }
+    .blue-btn:hover {
+        background: white;
+        color: #0073c2;
+        border: thin solid #0073c2;
+        text-decoration: none;
+    }
+    .purple-btn {
+        background: #9966cc;
+        border: thin solid #9966cc;
+    }
+    .purple-btn:hover {
+        background: white;
+        color: #9966cc;
+        border: thin solid #9966cc;
+        text-decoration: none;
+    }
+    .thick-orange-btn {
+        background: #ff6633;
+        border: thin solid #ff6633;
+    }
+    .thick-orange-btn:hover {
+        background: white;
+        color: #ff6633;
+        border: thin solid #ff6633;
+        text-decoration: none;
+    }
+    .header-img {
+        //top: 100px;
+        right: 60px;
+        width: 400px;
+        position: absolute;
+    }
+    .icon-title {
+        font-size: 16px;
+        color: #ff6633;
+        text-align: center;
+        height: 50px;
+        font-family: Quicksand;
+        font-weight: bold;
+        margin-top: 2em;
+    }
+    .icon-img {
+        text-align: center;
+    }
+    .icon-img img {
+        height: 100px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .icon-desc {
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    .section-coloured {
+        background-color: #e3f7fa;
+    }
+    .two-col-info {
+        height: 200px;
+    }
+
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: #ff6633;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        width: 200px;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: absolute;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #ff6633;
+    }
+
+    .outer-wrapper {
+        //display: inline-block;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .frame {
+        width: 250px;
+        height: 180px;
+        vertical-align: middle;
+        text-align: center;
+        display: table-cell;
+        padding: 1em;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .inline-link {
+        display: contents;
+    }
+    .wrap {
+        display: none;
+    }
+    .btn-send {
+        background: #72d6e6;
+        padding: 0.3rem 5.5rem !important;
+        border-radius: 2rem;
+        color: #fff !important;
+    }
+    @media screen and (max-width: 767px) {
+        
+        .beam-for-clinicians {
+            text-align: center;
+            padding-top: 1em;
+        }
+
+        .nav-button {
+            margin-right: 0em;
+            width: 100%;
+            text-align: center;
+        }
+
+        .helping-physiotherap {
+            text-align: center;
+        }
+
+        .wrap {
+            display: table-row;
+        }
+
+        .frame {
+            padding: 0.5em;
+            height: 80px;
+        }
+        .frame-low {
+            width: 200px;
+            height: 100px;
+        }
+        .two-col-info {
+            height: unset;
+        }
+    }
+
+    .card-price1 div,
+    .card-price2 div,
+    .card-price3 div {
+        font-family: "Mbold" !important;
+    }
+    .card-price1,
+    .card-price2,
+    .card-price3 {
+        border: 1px solid #0174c2;
+        padding: 15px;
+        border-radius: 8px;
+        border-top: 10px solid #0174c2;
+        text-align: center;
+    }
+    .card-price2 {
+        border: 1px solid #9966cc;
+        border-top: 10px solid #9966cc;
+    }
+    .card-price3 {
+        border: 1px solid #72d6e6;
+        border-top: 10px solid #72d6e6;
+    }
+    .price-tag-new h3 {
+        color: #56595d;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .card-price1 .up-sec span {
+        color: #0174c2;
+    }
+    .card-price2 .up-sec span {
+        color: #9966cc;
+    }
+    .card-price3 .up-sec span {
+        color: #72d6e6;
+    }
+    .up-sec .big-text {
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .up-sec .small-text {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .up-sec .xsmall-text {
+        font-size: 11px;
+        font-weight: bold;
+        color: #0174c2;
+    }
+    .card-price2 .up-sec .xsmall-text {
+        color: #9966cc;
+    }
+    .card-price3 .up-sec .xsmall-text {
+        color: #72d6e6;
+    }
+    .login-or {
+        position: relative;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .hr-or {
+        height: 1px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        border-top: 1px solid #0174c2;
+    }
+    .card-price2 .hr-or {
+        border-top: 1px solid #9966cc;
+    }
+    .card-price3 .hr-or {
+        border-top: 1px solid #72d6e6;
+    }
+    .up-sec .span-or {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .span-or {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: -10px;
+        margin-left: -25px;
+        background-color: #fff;
+        width: 50px;
+        text-align: center;
+    }
+}

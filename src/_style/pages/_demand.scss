@@ -1,0 +1,325 @@
+.demand-page {
+    .headsup-section p {
+        font-size: 16px !important;
+    }
+    .vid_time {
+        bottom: 8px;
+    }
+    .demand-profimg {
+        width: 50px;
+        //height:50px;
+    }
+
+    .redtext {
+        color: $OutrageousOrange;
+    }
+    .card-text:last-child {
+        //line-height: 10px;
+    }
+    .card-body {
+        padding: 0.5rem;
+    }
+    .w-40 {
+        width: 53px;
+    }
+    .w-60 {
+        width: 75px;
+    }
+    .font-light--weight {
+        font-size: 0.6rem;
+    }
+    span.text-secondary {
+        color: $Alto !important;
+    }
+}
+.condemand {
+    .vid_time {
+        //bottom: -116px;
+        bottom: -100px;
+        @extend %Msemibold;
+    }
+}
+.program_detailcontent {
+    .vid_time {
+        bottom: 8px;
+    }
+}
+.close-btn {
+    height: 38px;
+    line-height: 28px !important;
+    width: 175px;
+}
+.search-sm-btn input {
+    background: #ffffff !important;
+}
+.tab_group .slt {
+    background: url(/images/selectpur.png);
+}
+.demand-section-1 {
+    h3.heading_3 {
+        font-size: 1.3rem;
+    }
+    .bookmark-left .fa {
+        font-size: 1.28rem;
+    }
+    .card-header img {
+        width: 5.5rem;
+    }
+    .text-underline {
+        text-decoration: underline;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+.demand-section--2 {
+    .bg-red {
+        background: $OutrageousOrange;
+    }
+
+    .left-image {
+        width: 3% !important;
+        max-width: 3%;
+    }
+    .rating-stars .fa {
+        font-size: 3rem;
+    }
+    .btn-orange {
+        width: 248px;
+    }
+}
+.months-list {
+    width: 14%;
+}
+.on-liveclasses .list-group-item .rounded-circle {
+    width: 75px;
+}
+.on-liveclasses .list-group-item .btn {
+    height: 38px;
+    width: 165px;
+    float: right;
+    line-height: 29px;
+}
+.on-liveclasses .list-group-item .pad_list_btn {
+    height: 38px;
+    width: 165px;
+    float: right;
+    line-height: 27px;
+}
+.list-group div:first-child p {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.demand-section--3 {
+    p {
+        font-size: 0.6rem;
+        width: 63%;
+    }
+    .left-image {
+        width: 50px !important;
+        max-width: 50px !important;
+    }
+    h3.heading_3 {
+        font-size: 0.9rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.5rem;
+    }
+}
+
+.filter-sm-value {
+    display: none;
+}
+
+.mobile-view-live {
+    display: none;
+}
+.b4_start .modal-title1 {
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+@media #{$information-large} {
+    .months-list span {
+        margin: 0 2.1rem !important;
+    }
+    .button-filter {
+        height: 38px;
+        line-height: 2rem !important;
+        width: 141px;
+    }
+
+    .banner_demand {
+        height: auto !important;
+        background-size: cover !important;
+    }
+    .close-btn {
+        height: 32px;
+        line-height: 24px !important;
+        width: 141px;
+    }
+}
+@media #{$information-tablet} {
+    .list-group-item.list_bg .media {
+        padding-right: 15px !important;
+    }
+    .w-xs-100 {
+        width: 100% !important;
+    }
+    .tab-sm-group {
+        width: 100% !important;
+    }
+    .on-liveclasses .list-group-item.list_bg .pad_list_btn {
+        height: 38px;
+        width: 100%;
+        float: right;
+        line-height: 27px;
+    }
+    /* .on-liveclasses .list-group-item .font-14 {
+    font-size: 10px !important;
+} */
+    .top-content-live h4,
+    .top-content-live p,
+    .top-content-live .btn {
+        text-align: center;
+        margin: 0 auto;
+        display: table;
+    }
+    .condemand .on-liveclasses {
+        height: auto !important;
+    }
+    .on-liveclasses .image-size {
+        height: auto;
+    }
+}
+@media #{$information-phone} {
+    .schedule_block .modal-title1 {
+        font-size: 1rem !important;
+        margin-top: 20px;
+    }
+    .schedule_block .popup-btn {
+        font-size: 0.7rem !important;
+    }
+    .DayPicker-Caption {
+        position: absolute;
+        top: 12px !important;
+        color: #fff;
+        right: 45%;
+        font-size: 12px !important;
+    }
+    .mobile-view-live .rounded-circle {
+        //    width: 25px !important;
+    }
+    #products .mobile-view-live .media {
+        padding-right: 10px !important;
+    }
+    .mobile-view-live .vid_time_new {
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0px 5px;
+        border-radius: 3px;
+        height: 11px;
+    }
+    .desktop-view-live {
+        display: none;
+    }
+    .mobile-view-live {
+        display: block;
+    }
+    .about-demand h4 {
+        text-align: center;
+    }
+    .about-demand .content-text {
+        text-align: center;
+    }
+    .demand-section--2 {
+        .left-image {
+            width: 100% !important;
+            max-width: 100% !important;
+            text-align: center;
+        }
+    }
+    .search-sm-btn input {
+        background: transparent !important;
+    }
+
+    .tab_group .slt {
+        background-repeat: no-repeat;
+        background-size: 60%;
+    }
+    .tab-sm-group {
+        width: 100% !important;
+    }
+    .tab-btn {
+        padding: 0 !important;
+    }
+    .condemand .banner_demand {
+        height: auto !important;
+        background-size: unset !important;
+        padding-bottom: 50px !important;
+        padding-top: 50px !important;
+    }
+    .condemand .banner_demand h3 {
+        font-family: $Msemibold;
+        font-size: 17px !important;
+    }
+    .tab-btn .tab-select {
+        font-size: 15px !important;
+        font-family: $Msemibold;
+    }
+    .leftwidth-set {
+        width: 28px !important;
+    }
+    .button-filter {
+        height: 38px;
+        line-height: 24px !important;
+        width: 175px;
+    }
+    .close-btn {
+        height: 28px;
+        line-height: 22px !important;
+        width: 141px;
+    }
+    .filter-sm-value .card {
+        border: none;
+        background: #fff;
+    }
+    .filter-sm-value .card-header a {
+        font-size: 18px !important;
+        color: #666366 !important;
+        border-bottom: 1px solid rgba(102, 99, 102, 0.7) !important;
+        padding: 10px 0;
+        width: 100%;
+        float: left;
+        text-decoration: none;
+        height: 44px;
+        margin-bottom: 10px;
+    }
+    .filter-sm-value .card-header {
+        background: #fff;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .filter-sm-value.filter-clicked {
+        display: block;
+    }
+    .filter-sm-value .card-body p {
+        font-family: Mregular !important;
+        padding: 9px 20px;
+        font-size: 18px !important;
+        color: #666366 !important;
+        border-bottom: 1px solid rgba(102, 99, 102, 0.7) !important;
+    }
+    .filter-sm-value .card-body {
+        padding: 0;
+    }
+    .filter-sm-value .card-header a[aria-expanded="true"] i:before {
+        content: "\f106";
+    }
+}

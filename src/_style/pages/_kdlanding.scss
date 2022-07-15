@@ -1,0 +1,519 @@
+.kd_landing_page {
+    .new-input-style {
+        border-radius: 10px;
+        border: 1px solid #fff;
+        height: 40px;
+        vertical-align: middle;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .logo-section {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .textarea-message {
+        background: white;
+        border: 1px solid #fff;
+        border-radius: 10px;
+    }
+    .align-section {
+        text-align: left;
+    }
+    .welcome-kidney {
+        font-size: 2em;
+        line-height: 58px;
+    }
+    .welcome-container {
+        padding: 2em;
+    }
+    .take-tour {
+        font-size: 2rem;
+    }
+    .proud-text {
+        font-size: 1.2em;
+        margin-top: 60px;
+    }
+    .btn-guide {
+        padding: 0.5rem 3.8rem;
+    }
+    .label-text {
+        font-size: 18px;
+    }
+    .before-start {
+        font-family: "Qmedium" !important;
+    }
+    div {
+        //font-family: "Qregular" !important;
+        font-size: 22px;
+        color: #696969;
+    }
+    h2 {
+        font-family: "Qregular" !important;
+    }
+    .text-danger {
+        font-size: 14px !important;
+        margin: 0;
+    }
+    .bundle-price h2 {
+        text-align: center;
+        padding: 2em 0em 1em 0em;
+        font-weight: bold;
+    }
+    section {
+        padding: 2rem;
+    }
+    .bg-primary {
+        background-color: white;
+    }
+    .bg-contrast1 {
+        padding: 0;
+        background-color: #0073c2;
+    }
+    .bg-contrast2 {
+        background-color: #ffebc2;
+    }
+    .bg-contrast3 {
+        background-color: #e3f7fa;
+    }
+    .bg-contrast4 {
+        background-color: #ffe0d6;
+    }
+    .bg-contrast {
+        background-color: #e9fcf8;
+    }
+    p {
+        margin: 1em 0;
+        padding: 0;
+        font-size: 18px;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat";
+    }
+    h1 {
+        font-size: 36px;
+        padding: 1em 0em 1em 0em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+        padding: 1em;
+    }
+
+    .beam-for-clinicians {
+        color: #0073c2;
+        font-family: Msemibold !important;
+        font-size: 32px;
+        letter-spacing: 0.03px;
+        line-height: 48px;
+        padding-top: 3em;
+    }
+    .helping-physiotherap {
+        font-family: Quicksand-bold;
+        font-size: 1.1em;
+        letter-spacing: 0.02px;
+        line-height: 30px;
+        clear: both;
+        padding-top: 1em;
+    }
+    .partner-title-blue {
+        color: #0073c2;
+        font-family: Msemibold !important;
+        font-size: 28px;
+        letter-spacing: 0.03px;
+        line-height: 48px;
+        padding: 1em 0em;
+        text-align: center;
+    }
+    .p-t-3 {
+        padding-top: 3em !important;
+    }
+    .p-r-1 {
+        padding-right: 1em;
+    }
+    .p-b-2 {
+        padding-bottom: 2em !important;
+    }
+    .m-t-3 {
+        margin-top: 3em !important;
+    }
+    .partner-title-purple {
+        color: #9966cc;
+        font-family: Msemibold !important;
+        font-size: 28px;
+        letter-spacing: 0.03px;
+        line-height: 48px;
+        padding: 1em 0em 1em 0em;
+        text-align: center;
+    }
+    .partner-title-orange {
+        color: #ff6633;
+        font-family: Msemibold !important;
+        font-size: 28px;
+        letter-spacing: 0.03px;
+        line-height: 48px;
+        padding: 1em 0em 1em 0em;
+        text-align: center;
+    }
+    .partner-title-black {
+        color: #53565a;
+        font-family: Msemibold !important;
+        font-size: 28px;
+        letter-spacing: 0.03px;
+        line-height: 48px;
+        padding: 1em 0em 1em 0em;
+        text-align: center;
+    }
+    .section-content {
+        color: #53565a;
+        font-size: 18px;
+        letter-spacing: 0.01px;
+        line-height: 36px;
+        text-align: center;
+    }
+    /* .section-content a {
+        color: #007bff;
+        text-decoration: none;
+        background-color: transparent;
+    } */
+    .Qbold {
+        font-family: Quicksand-bold;
+    }
+    .second-nav {
+        height: 50px;
+        color: #ff6633;
+        font-family: Montserrat;
+        line-height: 50px;
+        font-size: 18px;
+        text-align: right;
+        z-index: 100;
+    }
+    .third-nav {
+        height: 40px;
+        color: #9966cc;
+        font-family: Montserrat;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .nav-item {
+        padding-right: 2em;
+        display: inline-block;
+    }
+    .nav-item a {
+        color: #ff6633;
+    }
+    .third-nav-item {
+        padding-right: 1.5em;
+        float: left;
+    }
+
+    .col-centered {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .w-80 {
+        width: 80%;
+    }
+
+    .nav-button {
+        border-radius: 15px;
+        padding: 0.5em 1em;
+        color: white;
+        margin-right: 1em;
+        font-size: 16px;
+        float: left;
+        margin-top: 1em;
+        font-weight: bold;
+    }
+    .blue-btn {
+        background: #0073c2;
+        border: thin solid #0073c2;
+    }
+    .blue-btn:hover {
+        background: white;
+        color: #0073c2;
+        border: thin solid #0073c2;
+        text-decoration: none;
+    }
+    .purple-btn {
+        background: #9966cc;
+        border: thin solid #9966cc;
+    }
+    .purple-btn:hover {
+        background: white;
+        color: #9966cc;
+        border: thin solid #9966cc;
+        text-decoration: none;
+    }
+    .thick-orange-btn {
+        background: #ff6633;
+        border: thin solid #ff6633;
+    }
+    .thick-orange-btn:hover {
+        background: white;
+        color: #ff6633;
+        border: thin solid #ff6633;
+        text-decoration: none;
+    }
+    .header-img {
+        //top: 100px;
+        right: 60px;
+        width: 266px;
+        position: absolute;
+    }
+    .icon-title {
+        font-size: 1.1em;
+        color: #0073c2;
+        text-align: center;
+        font-family: Msemibold !important;
+        margin-top: 2em;
+    }
+    .icon-img {
+        text-align: center;
+    }
+    .icon-img img {
+        //height: 100px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .icon-desc {
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 1em;
+        color: #53565a;
+    }
+    .section-coloured {
+        background-color: #e3f7fa;
+    }
+    .two-col-info {
+        height: 200px;
+    }
+
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: #ff6633;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        width: 200px;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: absolute;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #ff6633;
+    }
+
+    .outer-wrapper {
+        display: inline-block;
+    }
+
+    .frame {
+        width: 250px;
+        height: 180px;
+        vertical-align: middle;
+        text-align: center;
+        display: table-cell;
+        padding: 1em;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .inline-link {
+        display: contents;
+    }
+    .wrap {
+        display: none;
+    }
+    .btn-send {
+        background: #72d6e6;
+        padding: 0.3rem 5.5rem !important;
+        border-radius: 2rem;
+        color: #fff !important;
+    }
+    .offer-text {
+        font-size: 18px;
+    }
+    #content2::before {
+        white-space: pre;
+        content: "\a";
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .kd_landing_page {
+        .logo-section {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .proud-text {
+            margin-top: 0px;
+        }
+        #content2::before {
+            // white-space: pre;
+            content: "\a";
+        }
+        .fullwidth {
+            width: 100% !important;
+        }
+        .welcome-kidney {
+            font-size: 1.4em;
+            line-height: 58px;
+        }
+        .header-img {
+            right: 23px;
+            width: 400px;
+            position: absolute;
+        }
+        .beam-for-clinicians {
+            text-align: center;
+            padding-top: 1em;
+        }
+
+        .nav-button {
+            margin-right: 0em;
+            width: 100%;
+            text-align: center;
+        }
+
+        .helping-physiotherap {
+            text-align: center;
+        }
+
+        .wrap {
+            display: block;
+        }
+
+        .frame {
+            padding: 0.5em;
+        }
+        .frame-low {
+            width: 200px;
+            height: 100px;
+        }
+        .two-col-info {
+            height: unset;
+        }
+        .btn-guide {
+            padding: 0.5rem 1rem;
+        }
+        .before-start {
+            font-family: "Qmedium" !important;
+        }
+        .important-asset {
+            width: 100px;
+        }
+        .offer-text {
+            font-size: 16px;
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 880px) {
+    #content2::before {
+        white-space: pre;
+        content: "\a";
+    }
+}
+@media #{$information-phone} {
+    .kd_landing_page {
+        .logo-section {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .proud-text {
+            margin-top: 0px;
+        }
+        .glass-image {
+            position: absolute;
+            bottom: 50px;
+            right: 0;
+        }
+        .readnow {
+            margin-top: 80px;
+        }
+        .readnow .btn-darkblue {
+            padding: 0px;
+        }
+        .readnow .btn-darkblue {
+            padding: 0px;
+        }
+        .align-section {
+            text-align: center;
+        }
+        .fullwidth {
+            width: 100% !important;
+        }
+        .helping-physiotherap {
+            font-size: 18.8px;
+        }
+        .welcome-kidney {
+            font-size: 22px;
+            line-height: normal;
+            margin-top: 17px;
+        }
+        div {
+            font-size: 22px;
+            color: #696969;
+        }
+        .row.align-items-center.h-100 .icon-img .btn {
+            font-size: 16px;
+            padding: 13px;
+        }
+        .header-img {
+            right: 0;
+            width: 121px;
+            position: absolute;
+        }
+        .video-player-order {
+            order: 2;
+        }
+    }
+}
